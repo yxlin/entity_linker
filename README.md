@@ -13,7 +13,7 @@ jupyter:
 ---
 
 # Entity Linking
-The tutorial documents how one may use the **Entity Linking** tool in spaCy to resolve the ambiguous mentioning via using unique identifers in a knowledge base (KB). The following tools may be needed. 
+The tutorial documents how one may use the **Entity Linking** tool in spaCy to resolve the ambiguous mentioning using unique identifers in a knowledge base (KB). The following tools may be needed. 
 
 ```python
 # !python3 -m spacy download zh_core_web_md
