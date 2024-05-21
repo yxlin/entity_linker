@@ -120,7 +120,7 @@ kb.add_alias(alias="黄国书", entities=qids, probabilities=probs)
 ```
 
 * The following checks check the entities and aliases that are contained in it, and 
-* then print the candidates that are generated for the distinct name of 老黄国书, as well as for the ambiguious mentioning, "黄国书" or for another random mentioning that is also a politician, with a different, distinguishable, but similar name, "黃国昌".
+* then print the candidates that are generated for the distinct name of 老黄国书, as well as for the ambiguious mentioning, "黄国书" or for another random mentioning that is also a politician, with a different, distinguishable, but similar name, "王成章".
 
 ```python
 print(f"Entities in the KB: {kb.get_entity_strings()}")
